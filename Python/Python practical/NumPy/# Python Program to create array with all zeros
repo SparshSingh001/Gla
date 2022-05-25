@@ -1,0 +1,6 @@
+import numpy as n 
+  
+x=n.zeros(3,dtype=int) 
+print("Matrix x =\t",x) 
+y=n.zeros([3,3],dtype=int) 
+print("\nMatrix y =\n",y)
