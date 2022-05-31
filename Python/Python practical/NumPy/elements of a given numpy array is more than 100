@@ -1,0 +1,8 @@
+'''2. Write a program to test whether none of the elements of a given
+numpy array is more than 100.'''
+import numpy as np
+arr=np.array([1,2,3,4,101,5,6])
+if arr.max()<=100:
+    print('yes')
+else:
+    print('no')
