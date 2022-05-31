@@ -1,0 +1,6 @@
+'''4. Write a NumPy program to create a NxN identity matrix. N is user
+entered positive Integer.'''
+import numpy as np
+n=int(input("enter N\n"))
+arr=np.identity(n)
+print(arr)
