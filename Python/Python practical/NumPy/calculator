@@ -1,0 +1,18 @@
+'''You are given two integer arrays, A and B of dimensions NxM.
+Your task is to perform the following operations:
+1. Add (A +B )
+2. Subtract ( A-B )
+3. Multiply ( A*B )
+4. Integer Division (A //B )
+5. Mod ( A%B )
+6. Power ( A**B )'''
+import numpy as np
+N,M=map(int,input().split())
+a1=np.array(input().split(),int)[:M]
+a2=np.array(input().split(),int)[:M]
+print(a1+a2)
+print(a1-a2)
+print(a1*a2)
+print(a1//a2)
+print(a1%a2)
+print(a1**a2)
