@@ -1,0 +1,8 @@
+'''5. Write a Python program to remove all the numbers in a given array
+which is equal and greater to a given number'''
+import numpy as np
+arr=np.array([1,2,3,4,5,6])
+n=int(input('enter the number\n'))
+arr=arr[(arr<n)]
+#arr=np.delete(arr,np.argwhere(arr>=n))
+print(arr)
