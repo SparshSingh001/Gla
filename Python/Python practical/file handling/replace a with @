@@ -4,4 +4,4 @@ d = d.replace('a', '@')
 f.close()
 f=open("data.txt", "w")
 f.write(d)
-f.close(
+f.close()
