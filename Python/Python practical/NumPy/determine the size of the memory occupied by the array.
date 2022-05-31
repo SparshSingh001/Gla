@@ -1,0 +1,9 @@
+'''3. Write a Python program to create an array with the integer values
+and determine the size of the memory occupied by the array.
+Comparison with list also.'''
+import numpy as np
+import sys
+lis=[0,4,55,2]
+arr=np.array(lis)
+print(sys.getsizeof(1)*len(lis))
+print(arr.itemsize*arr.size)
